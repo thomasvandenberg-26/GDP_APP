@@ -1,0 +1,6 @@
+
+Explore the Docs', link: 'https://angular.dev'
+Learn with Tutorials', link: 'https://angular.dev/tutorials'
+CLI Docs', link: 'https://angular.dev/tools/cli'
+Angular Language Service', link: 'https://angular.dev/tools/language-service'
+Angular DevTools', link: 'https://angular.dev/tools/devtools'
