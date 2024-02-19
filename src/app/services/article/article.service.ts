@@ -1,22 +1,21 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Article} from "../../model/article/article"
+import { Article} from "../../model/article/article";
+import { environment } from '../../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
 export class ArticleService {
 
 
- 
-  private  apiUrl = ''
 
 
-  constructor(private http: HttpClient) { 
+  constructor(private http: HttpClient) {
 
   }
 
   getArticles(): Observable<Article[]>{
-    return this.http.get<Article[]>(this.apiUrl);
+    return this.http.get<Article[]>(environment.apiUrl);
   }
 }

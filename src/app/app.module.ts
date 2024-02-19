@@ -10,6 +10,7 @@ import { FooterComponent } from './views/footer/footer.component';
 import { DetailArticleComponent } from './detail-article/detail-article.component';
 import { HttpClientModule } from '@angular/common/http'; // Importez HttpClientModule
 import { RouterModule, Routes } from '@angular/router';
+import { PageArticleComponent } from './views/page-article/page-article.component';
 
 const routes : Routes = [
   { path: 'detail-article/:id', component: DetailArticleComponent},
@@ -26,13 +27,13 @@ const routes : Routes = [
     BrowserAnimationsModule,
     ArticleComponent,
     HeaderComponent,
-    FooterComponent, 
+    FooterComponent,
     HttpClientModule,
-
+    PageArticleComponent,
   ],
   providers: [
     provideClientHydration()
   ],
-  
+
 })
 export class AppModule { }
