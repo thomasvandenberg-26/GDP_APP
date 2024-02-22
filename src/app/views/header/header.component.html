@@ -9,15 +9,34 @@
 			</div>
 		</nav>-->
 
-<nav class="navbar navbar-inverse">
+<!-- <nav class="navbar navbar-inverse">
 	  <ul class="nav navbar-nav">
 		<li>Gout du Pays<li>
 		<li id="login"> Login </li>
 
 		<form class="search-container">
 			<input type="text" id="search-bar" placeholder="What can I help you with today?">
-			<!-- <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a> -->
-		</form>
+			 <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a> -->
+		<!-- </form>
 	  </ul>
-  </nav>
+  </nav>  -->
+
+  		<p-tabMenu  enterFromClass="test" pStyleClass=".label" [model]="gfg"></p-tabMenu>
+  <p-toolbar>
+    <div class="p-toolbar-group-start">
+        <button pButton icon="pi pi-plus" class="mr-2"></button>
+        <button pButton icon="pi pi-print" class="mr-2"></button>
+        <button pButton icon="pi pi-upload"></button>
+    </div>
+    <div class="p-toolbar-group-center">
+        <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input pInputText placeholder="Search" />
+        </span>
+    </div>
+    <div class="p-toolbar-group-end">
+        <p-splitButton label="Save" icon="pi pi-check" [model]="items"></p-splitButton>
+    </div>
+</p-toolbar>
+
 </header>

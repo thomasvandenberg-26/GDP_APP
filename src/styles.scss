@@ -2,12 +2,28 @@
 
 html, body { height: 100%; }
 body {
-     margin: 0; 
+     margin: 0;
      font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: gray;
+      background-color: #e2e2e2;
+      color: black;
     }
 app-root{
     width: 100%;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+@layer reset {
+  button,
+  input {
+      /* CSS to Reset */
+  }
+  p-tabMenu{
+    color: black;
+  }
+
+
+}

@@ -1,13 +1,16 @@
 $white: #E2E2E2;
 $blue: #0085B2;
-$black: #121212; 
+$black: #121212;
 $font-family_1: "Source Code Pro";
 
 /*# sourceMappingURL=style.css.map */
 	header {
 
+    .custom-tab-menu .ui-menuitem-text{
+            color: #121212
+    }
 		#login{ float: right;}
-		
+
 		background-color: $black;
 		display: flex;
 		flex-direction: row;
@@ -17,7 +20,7 @@ $font-family_1: "Source Code Pro";
 			flex-direction: column;
 		  }
 		li {
-			color : #E2E2E2; 
+			color : #E2E2E2;
 			font-size: x-large;
 			display: inline-block;
 			&:not(:last-child){
@@ -26,7 +29,7 @@ $font-family_1: "Source Code Pro";
 
 		}
 		a {
-			color : #E2E2E2; 
+			color : #E2E2E2;
 			font-size: x-large;
 			display: inline-block;
 			&:not(:last-child){
@@ -35,14 +38,14 @@ $font-family_1: "Source Code Pro";
 
 		}
 
-		  
+
 		  .search-container{
 			width: 500px;
 			margin-left: 200px;
 		  }
-		
+
 		  input#search-bar{
-		
+
 			width: 50%;
 			height: 45px;
 			padding: 0 20px;
@@ -54,20 +57,20 @@ $font-family_1: "Source Code Pro";
 			  transition: 0.35s ease;
 			  color: #008ABF;
 			  &::-webkit-input-placeholder{
-				transition: opacity 0.45s ease; 
+				transition: opacity 0.45s ease;
 				opacity: 0;
 			   }
 			  &::-moz-placeholder {
-				transition: opacity 0.45s ease; 
+				transition: opacity 0.45s ease;
 				opacity: 0;
 			   }
 			  &:-ms-placeholder {
-			   transition: opacity 0.45s ease; 
+			   transition: opacity 0.45s ease;
 			   opacity: 0;
-			   }    
+			   }
 			 }
 		   }
-		  
+
 		  .search-icon{
 			position: relative;
 			float: right;
@@ -76,8 +79,8 @@ $font-family_1: "Source Code Pro";
 			top: -62px;
 			right: -80px;
 		  }
-		  
-		  
-	
+
+
+
 	}
 

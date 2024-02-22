@@ -1,12 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component , Input} from '@angular/core';
-import { Article } from '../model/article/article';
-
-
+import { Article } from '../model/article/article.model';
+import { Router} from '@angular/router';
+import { CardModule } from 'primeng/card';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-article',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CardModule, RouterModule],
   templateUrl: './article.component.html',
   styleUrl: './article.component.scss',
   template: `
@@ -26,7 +27,12 @@ export class ArticleComponent {
   @Input() quantity: number = 0;
   @Input() description: string = '';
 
+  constructor(private router : Router)
+  {}
 
+  navigateToAbout(){
+    this.router.navigate(['/detailArticle']);
+  }
   // content: string = "Contenu de l'article à afficher.";
   // cheminImage:any ="../assets/ds.jpg";
 

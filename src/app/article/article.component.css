@@ -1,0 +1,37 @@
+p-card img {
+  width: 150px;
+  margin-top: 4px;
+  margin-left: 20px;
+  height: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+p-card .article_info {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 50%;
+}
+
+p-card .article_info h5 {
+  display: inline-block;
+  margin: 0 25px 2px;
+}
+
+p-card .article_desc {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr;
+      grid-template-rows: auto 1fr;
+  margin-left: 180px;
+}
+
+p-card .article_desc p {
+  font-size: 12px;
+  margin: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+/*# sourceMappingURL=article.component.css.map */

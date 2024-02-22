@@ -1,12 +1,12 @@
 
 
   // background-color: aquamarine;
-div{
+p-card{
   img{
 
   width: 150px;
   margin-top: 4px;
-  margin-left: 20px; 
+  margin-left: 20px;
   height: 150px;
   display: inline-block;
   vertical-align: middle;
@@ -17,8 +17,8 @@ div{
 .article_info{
    width: fit-content;
    max-width: 50%;
-  
-  h5{ 
+
+  h5{
     display: inline-block;
     margin:0 25px 2px;
 
@@ -30,16 +30,16 @@ div{
   // width: 40%;
 
   display: grid;
-  grid-template-rows: auto 1fr; 
+  grid-template-rows: auto 1fr;
   margin-left: 180px;
 //  align-items: start;
   p {
     font-size: 12px;
     margin: 0;
     align-self: flex-start;
-   
+
   }
-  
+
 }
 
 }

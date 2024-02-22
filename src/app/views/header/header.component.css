@@ -1,0 +1,97 @@
+header {
+  background-color: #121212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+header .custom-tab-menu .ui-menuitem-text {
+  color: #121212;
+}
+
+header #login {
+  float: right;
+}
+
+@media (max-width: 400px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+header li {
+  color: #E2E2E2;
+  font-size: x-large;
+  display: inline-block;
+}
+
+header li:not(:last-child) {
+  margin-right: 25px;
+}
+
+header a {
+  color: #E2E2E2;
+  font-size: x-large;
+  display: inline-block;
+}
+
+header a:not(:last-child) {
+  margin-right: 25px;
+}
+
+header .search-container {
+  width: 500px;
+  margin-left: 200px;
+}
+
+header input#search-bar {
+  width: 50%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+}
+
+header input#search-bar:focus {
+  border: 1px solid #008ABF;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #008ABF;
+}
+
+header input#search-bar:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+header input#search-bar:focus::-moz-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+header input#search-bar:focus:-ms-placeholder {
+  -webkit-transition: opacity 0.45s ease;
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+header .search-icon {
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -80px;
+}
+/*# sourceMappingURL=header.component.css.map */
