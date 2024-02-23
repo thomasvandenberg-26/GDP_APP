@@ -19,11 +19,10 @@
    @media only screen and (max-width: 768px) {
       grid-template-columns: 50% 50%; /* Réduire à deux colonnes sur les petits écrans */
     }
-  
+
    app-article{
       display: grid;
       grid-template-rows: auto 1fr auto;
-      background-color: gray;
 
    }
 

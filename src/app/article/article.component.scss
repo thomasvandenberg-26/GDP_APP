@@ -1,7 +1,19 @@
 
 
   // background-color: aquamarine;
-p-card{
+.unarticle{
+
+  .title{
+    text-decoration: underline;
+  }
+  .sellBy{
+    text-decoration: underline;
+    color:black;
+  }
+
+  :hover title{
+    color: orange;
+  }
   img{
 
   width: 150px;
@@ -13,33 +25,7 @@ p-card{
   margin-right: 10px;
  }
 
-
-.article_info{
-   width: fit-content;
-   max-width: 50%;
-
-  h5{
-    display: inline-block;
-    margin:0 25px 2px;
-
-  }
-
-}
-.article_desc{
-  // grid-column: span 2;
-  // width: 40%;
-
-  display: grid;
-  grid-template-rows: auto 1fr;
-  margin-left: 180px;
-//  align-items: start;
-  p {
-    font-size: 12px;
-    margin: 0;
-    align-self: flex-start;
-
-  }
-
 }
 
-}
+
+
