@@ -3,6 +3,7 @@ import { PageArticleComponent } from './views/page-article/page-article.componen
 import { PageDetailArticleComponent } from './views/page-detail-article/page-detail-article.component';
 import { HomeComponent } from './views/home/home.component';
 import { InscriptionComponent } from './views/inscription/inscription.component';
+import { LoginComponent } from './views/login/login.component';
 
 export const routes: Routes = [
 
@@ -10,5 +11,6 @@ export const routes: Routes = [
   {path: 'detailArticle', component: PageDetailArticleComponent },
   {path: '', component: HomeComponent},
   {path: 'inscription', component: InscriptionComponent},
+  {path: 'login', component: LoginComponent}
 
 ];
